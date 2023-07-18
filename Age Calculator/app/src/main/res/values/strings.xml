@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="Title">CALCULATE YOUR</string>
+    <string name="buttonTag">AGE</string>
+    <string name="subTitle">IN ANY FORMAT</string>
+    <string name="dateSelector">SELECT DATE</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="text">Your Date of Birth</string>
+    <string name="result">------</string>
+    <string name="text2">  In Minutes</string>
+    <string name="textInHr">  In Hour</string>
+    <string name="textInDays">  In Days</string>
+    <string name="textInWeeks">  In Weeks</string>
+    <string name="textInYear">  In Year</string>
+</resources>

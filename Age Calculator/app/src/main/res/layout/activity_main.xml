@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/age_calculator" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:text="@string/Title"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBackground"
+            android:padding="10dp"
+            android:text="@string/buttonTag"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:text="@string/subTitle"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDatePicker"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@color/textBackground"
+            android:text="@string/dateSelector"
+            android:pointerIcon="hand"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:text="@string/date"
+            android:textColor="#FFEA00"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:text="@string/text"
+            android:textColor="@color/subTextColor"
+            android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/resultAgeInHr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/result"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/resultAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:text="@string/result"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textInHr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:text="@string/textInHr"
+                android:textColor="@color/subTextColor"
+                android:textSize="15sp" />
+
+            <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="@string/text2"
+            android:textColor="@color/subTextColor"
+            android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+            android:layout_marginTop="-20dp">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/resultAgeInDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/result"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/resultAgeInWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/result"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resultAgeInYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="@string/result"
+                android:textColor="@color/textColor"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textInDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:text="@string/textInDays"
+                android:textColor="@color/subTextColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textInWeeks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:text="@string/textInWeeks"
+                android:textColor="@color/subTextColor"
+                android:textSize="15sp" />
+
+            <TextView
+            android:id="@+id/textInYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="@string/textInYear"
+            android:textColor="@color/subTextColor"
+            android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
