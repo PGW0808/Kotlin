@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_screen_main_layout_padding">5dp</dimen>
+    <dimen name="logo_height">190dp</dimen>
+    <dimen name="background_img_height">670dp</dimen>
+    <dimen name="background_img_weight">450dp</dimen>
+
+</resources>
